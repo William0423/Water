@@ -2,7 +2,7 @@ package language.thread.problem1;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+import ReentrantLock;
 
 /**
  * 使用Java5.0新特性:

@@ -1,8 +1,11 @@
 package language.thread.concurrency.deadlock;
 
 import java.awt.font.TextHitInfo;
+import java.util.concurrent.TimeUnit;
 
 public class DeadLockTest {
+
+
 
     public static void main(String args[]) {
 
@@ -54,8 +57,32 @@ public class DeadLockTest {
 
             }
         }, "线程-B").start();
+    }
+}
 
 
+class HoldThread implements Runnable {
+
+    private String lockA;
+    private String lockB;
+
+    public HoldThread(String lockA, String lockB) {
+        this.lockA = lockA;
+        this.lockB = lockB;
     }
 
+    @Override
+    public void run() {
+        synchronized (lockA) {
+            System.out.println(Thread.currentThread().getName() + "\t自己持有：" + lockA + "\t尝试获得：" + lockB);
+            try {
+                TimeUnit.SECONDS.sleep(2);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            synchronized (lockB) {
+                System.out.println(Thread.currentThread().getName() + "\t自己持有：" + lockB + "\t尝试获得：" + lockA);
+            }
+        }
+    }
 }

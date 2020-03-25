@@ -2,11 +2,13 @@ package src.thread.problem2;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+import ReentrantLock;
 
 /**
  * 编写一个程序，开启3个线程，这3个线程的ID分别为A、B、C，每个线程将自己的ID在屏幕上打印10遍，要求输出结果必须按ABC的顺序显示；如：ABCABC….依次递推。
  * 题目要求：1、只能起三个线程，每次只有一个线程打印，其他线程等待，三个线程按顺序打印；
+ *
+ * https://blog.csdn.net/feicongcong/article/details/78563003
  */
 public class AnswerOne {
 
