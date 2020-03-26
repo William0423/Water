@@ -1,6 +1,5 @@
-package language.thread.concurrency.locktest.reentranttest;
+package language.thread.lock.juc;
 
-import ReentrantLock;
 
 public class Count {
     UnReenTrantLock lock = new UnReenTrantLock();

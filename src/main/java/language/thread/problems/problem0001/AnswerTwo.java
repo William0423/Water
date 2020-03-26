@@ -1,8 +1,8 @@
-package language.thread.problem1;
+package language.thread.problems.problem0001;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
-import ReentrantLock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 使用Java5.0新特性:

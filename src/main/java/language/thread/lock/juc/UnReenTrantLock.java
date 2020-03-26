@@ -1,4 +1,4 @@
-package language.thread.concurrency.locktest.reentranttest;
+package language.thread.lock.juc;
 
 public class UnReenTrantLock {
 

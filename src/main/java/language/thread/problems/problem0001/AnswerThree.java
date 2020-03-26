@@ -1,4 +1,4 @@
-package language.thread.problem1;
+package language.thread.problems.problem0001;
 
 
 import java.util.concurrent.ArrayBlockingQueue;

@@ -2,7 +2,7 @@ package language.thread.problems.problem0003;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
-import ReentrantLock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * demo ReentrantLock

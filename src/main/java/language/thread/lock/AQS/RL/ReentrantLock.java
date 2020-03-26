@@ -1,4 +1,4 @@
-package language.thread.lock.AQS;
+package language.thread.lock.AQS.RL;
 
 /*
  * ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.

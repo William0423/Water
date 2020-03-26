@@ -1,4 +1,4 @@
-package language.thread.lock.AQS;
+package language.thread.lock.AQS.RL;
 
 /*
  * ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
@@ -209,7 +209,7 @@ public interface Condition {
      * </ul>
      * then {@link InterruptedException} is thrown and the current thread's
      * interrupted status is cleared. It is not specified, in the first
-     * case, whether or not the test for interruption occurs before the lock
+     * case, whether or not the SemaphoreDemo for interruption occurs before the lock
      * is released.
      *
      * <p><b>Implementation Considerations</b>
@@ -298,7 +298,7 @@ public interface Condition {
      * </ul>
      * then {@link InterruptedException} is thrown and the current thread's
      * interrupted status is cleared. It is not specified, in the first
-     * case, whether or not the test for interruption occurs before the lock
+     * case, whether or not the SemaphoreDemo for interruption occurs before the lock
      * is released.
      *
      * <p>The method returns an estimate of the number of nanoseconds
@@ -405,7 +405,7 @@ public interface Condition {
      * </ul>
      * then {@link InterruptedException} is thrown and the current thread's
      * interrupted status is cleared. It is not specified, in the first
-     * case, whether or not the test for interruption occurs before the lock
+     * case, whether or not the SemaphoreDemo for interruption occurs before the lock
      * is released.
      *
      *

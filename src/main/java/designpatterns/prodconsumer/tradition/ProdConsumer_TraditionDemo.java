@@ -1,7 +1,7 @@
 package designpatterns.prodconsumer.tradition;
 
 import java.util.concurrent.locks.Condition;
-import ReentrantLock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class ProdConsumer_TraditionDemo {
 
@@ -22,6 +22,7 @@ public class ProdConsumer_TraditionDemo {
     }
 
     public static class ShareData {
+
         ReentrantLock lock = new ReentrantLock();
         Condition prodCondition = lock.newCondition();
         Condition consumerCondition = lock.newCondition();

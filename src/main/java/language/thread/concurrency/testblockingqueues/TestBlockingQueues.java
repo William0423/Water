@@ -35,7 +35,7 @@ public class TestBlockingQueues {
             runner.add(new LiftOff(5));
         getkey("Press 'Enter' (" + msg + ")");
         t.interrupt();
-        System.out.println("Finished " + msg + " test");
+        System.out.println("Finished " + msg + " SemaphoreDemo");
     }
     public static void main(String[] args) {
         test("LinkedBlockingQueue", // Unlimited size
