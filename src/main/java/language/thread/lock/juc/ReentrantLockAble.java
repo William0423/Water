@@ -2,7 +2,6 @@ package language.thread.lock.juc;
 
 public class ReentrantLockAble {
 
-
     boolean isLocked = true;
     Thread lockedBy = null;
     int lockCount = 0;

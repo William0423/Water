@@ -1,12 +1,14 @@
-package language.thread.concurrency.locktest;
+package language.thread.lock.juc;
 
 
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 public class SemaphoreDemo {
 
     public static void main(String[] args) {
+        CountDownLatch countDownLatch = new CountDownLatch(10);
         Semaphore semaphore = new Semaphore(3);//模拟三个停车位
         for (int i = 1; i <= 6; i++) {//模拟6部汽车
             new Thread(() -> {

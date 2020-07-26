@@ -8,6 +8,19 @@ public class DeadLockTest {
 
 
     public static void main(String args[]) {
+        String lockA = "lockA";
+        String lockB = "lockB";
+
+        HoldThread holdThread = new HoldThread(lockA, lockB);
+        new Thread(holdThread).start();
+
+        new Thread(new HoldThead(lockB, lockA)).start();
+
+//        deadLock();
+    }
+
+
+    private static void deadLock() {
 
         // 两把锁：
 //        第一个条件：至少有一个锁不能够共享
@@ -58,31 +71,35 @@ public class DeadLockTest {
             }
         }, "线程-B").start();
     }
-}
 
 
-class HoldThread implements Runnable {
 
-    private String lockA;
-    private String lockB;
+    static class HoldThread implements Runnable {
 
-    public HoldThread(String lockA, String lockB) {
-        this.lockA = lockA;
-        this.lockB = lockB;
-    }
+        private String lockA;
+        private String lockB;
 
-    @Override
-    public void run() {
-        synchronized (lockA) {
-            System.out.println(Thread.currentThread().getName() + "\t自己持有：" + lockA + "\t尝试获得：" + lockB);
-            try {
-                TimeUnit.SECONDS.sleep(2);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            synchronized (lockB) {
-                System.out.println(Thread.currentThread().getName() + "\t自己持有：" + lockB + "\t尝试获得：" + lockA);
+        public HoldThread(String lockA, String lockB) {
+            this.lockA = lockA;
+            this.lockB = lockB;
+        }
+
+        @Override
+        public void run() {
+            synchronized (lockA) {
+                System.out.println(Thread.currentThread().getName() + "\t自己持有：" + lockA + "\t尝试获得：" + lockB);
+                try {
+                    TimeUnit.SECONDS.sleep(2);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                synchronized (lockB) {
+                    System.out.println(Thread.currentThread().getName() + "\t自己持有：" + lockB + "\t尝试获得：" + lockA);
+                }
             }
         }
     }
+
+
+
 }

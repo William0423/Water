@@ -1,0 +1,17 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8Îñ¸î¢.
+‰
+java:S11301"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(ø³ëm8Îñ¸î¢.
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(§“˜ ûÿÿÿÿ8Îñ¸î¢.
+E
+java:S1148O"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8›ñºî¢.
+U	java:S106A"9Replace this use of System.out or System.err by a logger.(Û‘¬¶8Îñ¸î¢.
+E
+java:S1148W"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8›ñºî¢.
+k
+java:S2095L"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(÷±·˜8›ñºî¢.
+L
+java:S2093J"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8›ñºî¢.
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(ßÙ…8Îñ¸î¢.
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(òÀ½şÿÿÿÿ8Îñ¸î¢.

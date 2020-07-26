@@ -35,6 +35,8 @@ package language.thread.lock.AQS.RL;
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
+import language.thread.lock.AQS.common.AbstractQueuedSynchronizer;
+
 import java.util.concurrent.TimeUnit;
 import java.util.Collection;
 

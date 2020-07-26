@@ -1,0 +1,36 @@
+
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÍõÏú
+t
+java:S2293*"YReplace the type specification in this constructor call with the diamond operator ("<>").(üÕË¿ıÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(ƒ¦›Õøÿÿÿÿ
+V	java:S125n"<This block of commented-out lines of code should be removed.(±äğÕûÿÿÿÿ
+D
+java:S1144D".Remove this unused private "deepFirst" method.(ÓßŠÇ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(´šÿŠüÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+>
+java:S1481_"(Remove this unused "pop" local variable.(öà’
+V	java:S125c"<This block of commented-out lines of code should be removed.(·»Íøÿÿÿÿÿ
+‚
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÍõÏú
+M
+java:S1854_"7Remove this useless assignment to local variable "pop".(öà’
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(­“Â„
+V	java:S125l"<This block of commented-out lines of code should be removed.(•§Õìùÿÿÿÿ
+Q	java:S125`"<This block of commented-out lines of code should be removed.(µŸ­¬
+h
+java:S3776D"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ÓßŠÇ
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+>
+java:S1481J")Remove this unused "step" local variable.(£¹±S
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(Ù ıìûÿÿÿÿ
+O	java:S106…"9Replace this use of System.out or System.err by a logger.(´õû¡
+Q	java:S125Y"<This block of commented-out lines of code should be removed.(Ø©Íã
+f
+java:S1149F"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÚÚ £
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(±·³
+Q	java:S125M"<This block of commented-out lines of code should be removed.(™Ü¤²
+f	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÓ¢
+V	java:S125t"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ

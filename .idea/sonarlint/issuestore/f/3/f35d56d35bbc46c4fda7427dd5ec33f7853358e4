@@ -1,0 +1,29 @@
+
+8
+java:S1643Ã"Use a StringBuilder instead.(—íğıÿÿÿÿ
+]
+java:S1126ß"AReplace this if-then-else statement by a single return statement.(ÍÖÔıÿÿÿÿ
+D
+java:S1199Ì"-Extract this nested code block into a method.(Èºâ
+D
+java:S1199¿"-Extract this nested code block into a method.(¹Š¯¾
+3
+java:S1643Æ"Use a StringBuilder instead.(õ¥—
+I
+java:S1199Ô"-Extract this nested code block into a method.(Û·‹Îøÿÿÿÿ
+3
+java:S1643Ä"Use a StringBuilder instead.(¨ùˆ´
+u
+java:S1192a"ZDefine a constant instead of duplicating this literal "invalid jumian: rightQizi" 3 times.(ÛÍ½ıÿÿÿÿ
+D
+java:S1199à"-Extract this nested code block into a method.(™–Ô¼
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡şßËşÿÿÿÿ
+8
+java:S1643Ç"Use a StringBuilder instead.(šœÙîÿÿÿÿÿ
+3
+java:S1643Å"Use a StringBuilder instead.(Åìşà
+W
+java:S1126ô"AReplace this if-then-else statement by a single return statement.(‘ÊŞ
+r
+java:S1192B"WDefine a constant instead of duplicating this literal "invalid jumian: upQizi" 4 times.(ºÕÌÎıÿÿÿÿ

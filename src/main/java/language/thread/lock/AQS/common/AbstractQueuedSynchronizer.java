@@ -1,4 +1,4 @@
-package language.thread.lock.AQS.RL;
+package language.thread.lock.AQS.common;
 
 /*
  * ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
@@ -40,6 +40,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.ArrayList;
 import java.util.Date;
 
+import language.thread.lock.AQS.RL.*;
 import sun.misc.Unsafe;
 
 /**
@@ -981,6 +982,7 @@ public abstract class AbstractQueuedSynchronizer
      */
     private void doAcquireSharedInterruptibly(int arg)
             throws InterruptedException {
+        // 创建"当前线程"的Node节点，且Node中记录的锁是"共享锁"类型；并将该节点添加到CLH队列末尾。
         final AbstractQueuedSynchronizer.Node node = addWaiter(AbstractQueuedSynchronizer.Node.SHARED);
         boolean failed = true;
         try {
@@ -1460,7 +1462,7 @@ public abstract class AbstractQueuedSynchronizer
      * is not the first queued thread.  Used only as a heuristic in
      * ReentrantReadWriteLock.
      */
-    final boolean apparentlyFirstQueuedIsExclusive() {
+    final public boolean apparentlyFirstQueuedIsExclusive() {
         AbstractQueuedSynchronizer.Node h, s;
         return (h = head) != null &&
                 (s = h.next)  != null &&

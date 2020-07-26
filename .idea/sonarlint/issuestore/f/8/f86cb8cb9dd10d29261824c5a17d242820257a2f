@@ -1,0 +1,10 @@
+
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(ƒ¸¸“þÿÿÿÿ
+=
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(ÆÙ÷Åûÿÿÿÿ
+a
+java:S2095"FUse try-with-resources or close this "Selector" in a "finally" clause.(ŠÞö ùÿÿÿÿ
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(¡ÇÇ±ùÿÿÿÿ
+l
+java:S2095"QUse try-with-resources or close this "ServerSocketChannel" in a "finally" clause.(ãöŒÎüÿÿÿÿ

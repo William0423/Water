@@ -1,0 +1,15 @@
+
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+P
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ß²¥ðúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(»‡¹Ð
+>
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+>
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+I
+java:S1481"3Remove this unused "countDownLatch" local variable.(™ãÇ×
